@@ -17,7 +17,7 @@ print(f"Mesh loaded from: {mesh_file}")
 physical_groups = gmsh.model.getPhysicalGroups()
 
 # Definition of Dirichlet boundary conditions
-face_DC = [6]  # Replace with the index of the desired face
+face_DC = [2]  # Replace with the index of the desired face
 DC_BC = np.array([
     [1],
     [1],
