@@ -17,13 +17,13 @@ print(f"Mesh loaded from: {mesh_file}")
 physical_groups = gmsh.model.getPhysicalGroups()
 
 # Define Neumann BC parameters
-face_N = [5]  # Replace with the desired face index
-N_BC = np.array([[0],
+face_N = [6]  # Replace with the desired face index
+N_BC = np.array([[1],
                  [0], 
-                 [1]])  # Boundary condition flags
-N_stress = 1e5 * np.array([[0], 
+                 [0]])  # Boundary condition flags
+N_stress = 1e5 * np.array([[1], 
                            [0], 
-                           [1]])  # Stress values
+                           [0]])  # Stress values
 
 # Initialize arrays for Neumann BC
 N_nodes = []
