@@ -9,7 +9,7 @@ output_folder = 'Output'
 P_new_path = os.path.join(script_dir, output_folder, 'P_new.txt')
 T_path = os.path.join(script_dir, output_folder, 'mesh_T.txt')
 stress_vm_path = os.path.join(script_dir, output_folder, 'stress_vm.txt')
-stress_vm_nodi_path = os.path.join(script_dir, output_folder, 'stress_vm_nodi.txt')
+stress_vm_nodi_path = os.path.join(script_dir, output_folder, 'stress_vm_nodes.txt')
 u_nodes_path = os.path.join(script_dir, output_folder, 'u_nodes.txt')
 mesh_file_path = os.path.join(script_dir, output_folder, 'MESH_FILE.msh')
 
