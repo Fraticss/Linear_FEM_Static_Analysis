@@ -164,5 +164,8 @@ Visualizes simulation results using PyVista.
 - If errors occur, check your inputs and confirm all required libraries are installed.
 
 ---
+## License
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+
 
 Enjoy exploring the world of finite element analysis!
