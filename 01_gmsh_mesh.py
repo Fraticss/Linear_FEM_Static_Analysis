@@ -12,7 +12,7 @@ gmsh.initialize()
 #gmsh.option.setNumber("General.Terminal", 1)
 
 # Load STEP file
-step_file = os.path.join(script_dir, 'Input',"Cantilivier_beam.STEP") 
+step_file = os.path.join(script_dir, 'Input',"example_model.STEP") 
 gmsh.model.occ.importShapes(step_file)
 gmsh.model.occ.synchronize()
 
