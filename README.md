@@ -144,7 +144,7 @@ Solves the FEM system based on the mesh and boundary conditions.
 
 Visualizes simulation results using PyVista.
 
-- **Edit line 38** to select the desired output:
+- **Edit line 38** to select the desired output (use only one of the following lines):
   ```python
   grid["stress_magnitude"] = stress_vm_nodi  # Nodal Von Mises stress
   grid["stress_element"] = stress_vm         # Elemental Von Mises stress
