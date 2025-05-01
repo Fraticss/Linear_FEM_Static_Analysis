@@ -119,11 +119,11 @@ This script reads the results from the `Output` folder and visualizes the deform
 
 1. **Modify the script:**
    - Modify line 38 by coping one of the lines in the following section:
-        grid["stress_magnitude"] = stress_vm_nodi  # Stress magnitude at nodes
-        grid["stress_element"] = stress_vm  # Stress magnitude at elements
-        grid['disp_x'] = u_nodes[0::3]  # Displacement in x direction
-        grid['disp_y'] = u_nodes[1::3]  # Displacement in y direction
-        grid['disp_z'] = u_nodes[2::3]  # Displacement in z direction
+        -grid["stress_magnitude"] = stress_vm_nodi  # Stress magnitude at nodes
+        -grid["stress_element"] = stress_vm  # Stress magnitude at elements
+        -grid['disp_x'] = u_nodes[0::3]  # Displacement in x direction
+        -grid['disp_y'] = u_nodes[1::3]  # Displacement in y direction
+        -grid['disp_z'] = u_nodes[2::3]  # Displacement in z direction
 
 2. **Run the script:**
    - The script will plot the deformed model and display the results using PyVista.
