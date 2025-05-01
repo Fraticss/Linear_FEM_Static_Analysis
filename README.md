@@ -55,7 +55,7 @@ Visualizes the 3D model and displays the face indices using Gmsh—essential for
 
 ### Script 01: Mesh Generation (`01_gmsh_mesh.py`)
 
-Generates a tetrahedral mesh from the 3D model and visualizes it using both Gmsh and PyVista.
+Generates a tetrahedral mesh from the 3D model and visualizes it using PyVista.
 
 - **Edit the following lines:**
   ```python
