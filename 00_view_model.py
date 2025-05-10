@@ -31,7 +31,7 @@ gmsh.option.setNumber("Mesh.VolumeEdges", 0)
 gmsh.option.setNumber("Mesh.VolumeFaces", 0)
 
 # Set GUI background to black and text to white
-gmsh.option.setNumber("General.ColorScheme", 3)  # Set gradient color to black
+gmsh.option.setNumber("General.ColorScheme", 3)  # Set dark mode
 gmsh.option.setNumber("General.Light0", 0)  # Disable light
 
 # Start the gui for the mesh visualization
