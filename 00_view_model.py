@@ -30,6 +30,9 @@ gmsh.option.setNumber("Mesh.SurfaceFaces", 0)
 gmsh.option.setNumber("Mesh.VolumeEdges", 0)
 gmsh.option.setNumber("Mesh.VolumeFaces", 0)
 
+# Set GUI background to black and text to white
+gmsh.option.setColor("General.Background", 0, 0, 0)  # Black background
+
 # Start the gui for the mesh visualization
 gmsh.fltk.run()
 
